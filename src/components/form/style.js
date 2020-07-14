@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const TodosHeading = styled.h1`
+  font-size: 24px;
+  color: #66fcf1;
+  margin: 20px 0;
+`;
+
 export const StyledLabel = styled.label`
   display: block;
   font-size: 22px;
