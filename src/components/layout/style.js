@@ -27,7 +27,7 @@ const TwoColContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   background: ${p => p.theme.colors.darkgrey};
-  min-height: 500px;
+  min-height: 300px;
   
   ${media.tablet`
     flex-wrap: nowrap;
