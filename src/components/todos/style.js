@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TodoButton = styled.button`
   font-size: 18px;
-  color: ${p => (p.disabled ? p.theme.colors.darkTeal : p.theme.colors.white)};
+  color: ${p => p.theme.colors.darkTeal};
   margin: 10px 0;
   cursor: pointer;
   border: none;
@@ -25,6 +25,6 @@ export const ListItem = styled.li`
 
 export const TodoList = styled.ul`
   margin: 20px 0;
-  padding: 40px 20px;
+  padding: 0 20px;
   background-color: ${p => p.theme.colors.darkgrey};
 `;

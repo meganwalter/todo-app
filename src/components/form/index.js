@@ -25,12 +25,15 @@ const AddTodoForm = () => {
     newTodos[todoId] = newTodo;
 
     setTodos({ ...newTodos });
+    setTask('')
   };
 
   const markDone = todoId => {
     const newTodos = todos;
 
-    newTodos[todoId].done = true;
+    const status = newTodos[todoId].done;
+
+    newTodos[todoId].done = !todos[todoId].done;
 
     setTodos({ ...newTodos });
   };
