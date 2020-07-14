@@ -13,12 +13,6 @@ export const TodoButton = styled.button`
   }
 `;
 
-export const TodosHeading = styled.h1`
-  font-size: 24px;
-  color: #66fcf1;
-  margin: 20px 0;
-`;
-
 export const ListItem = styled.li`
   list-style: none;
 `;

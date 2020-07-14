@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  TodosHeading,
   ListItem,
   TodoButton,
   TodoList,
@@ -36,7 +35,6 @@ const TodosList = props => {
 
   return (
     <div>
-      <TodosHeading>Todo List</TodosHeading>
       <TwoColContainer>
         <Col>
           <h2>Ready</h2>
