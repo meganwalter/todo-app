@@ -3,10 +3,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   ${normalize()}
-  @import url('https://fonts.googleapis.com/css?family=Lato:700i,700,300i,300|Roboto:700,700i,400i,400');
 
   * {
-    font-family: Lato, 'Lucida Grande', Tahoma, Sans-Serif;
+    font-family: 'Roboto', Sans-Serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   }

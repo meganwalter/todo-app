@@ -7,8 +7,10 @@ import { ContentContainer } from './style';
 const Layout = props => (
   <>
     <ThemeProvider theme={theme}>
+      <>
       <GlobalStyle />
       <ContentContainer>{props.children}</ContentContainer>
+      </>
     </ThemeProvider>
   </>
 );
