@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import { Todos } from './components/todos';
+import Layout from './components/layout';
+import { AddTodoForm } from './components/form';
 
 function App() {
   return (
-    <div className="App">
-      <Todos />
-    </div>
+    <Layout>
+      <AddTodoForm />
+    </Layout>
   );
 }
 
