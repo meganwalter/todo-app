@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TodoButton = styled.button`
   font-size: 18px;
-  color: ${p => (p.disabled ? p.theme.colors.darkTeal : p.theme.colors.white)};
+  color: ${p => p.theme.colors.darkTeal};
   margin: 10px 0;
   cursor: pointer;
   border: none;

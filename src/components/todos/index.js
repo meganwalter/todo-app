@@ -23,7 +23,6 @@ const TodosList = props => {
             .map(todo => (
                   <ListItem key={todo}>
                     <TodoButton
-                      disabled={todos[todo].done}
                       onClick={() => markDone(todo)}
                     >
                       {todos[todo].description}
