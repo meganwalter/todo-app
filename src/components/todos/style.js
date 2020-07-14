@@ -25,6 +25,6 @@ export const ListItem = styled.li`
 
 export const TodoList = styled.ul`
   margin: 20px 0;
-  padding: 40px 20px;
+  padding: 0 20px;
   background-color: ${p => p.theme.colors.darkgrey};
 `;

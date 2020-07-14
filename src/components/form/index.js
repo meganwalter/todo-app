@@ -25,6 +25,7 @@ const AddTodoForm = () => {
     newTodos[todoId] = newTodo;
 
     setTodos({ ...newTodos });
+    setTask('')
   };
 
   const markDone = todoId => {
